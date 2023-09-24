@@ -34,8 +34,8 @@ def display_datetime(data, city):
     print("Date & Time/ Day:", datetime, "/", day)
 
 def main():
-    API_KEY1 = "0e0859e9f54f8f01cb1bd1144658e628" # # APi key from OpenWeather
-    API_KEY2 = "n4FilKP0NZDqYZguKKP1+Q==TePugoKqGLVK4rQJ" # APi key from API Ninjas (World Time API)
+    API_KEY1 = "replace_this_with_your_API_key" # # APi key from OpenWeather
+    API_KEY2 = "replace_this_with_your_API_key" # APi key from API Ninjas (World Time API)
     BASE_URL1 = "https://api.openweathermap.org/data/2.5/weather" # API call url (weather)
     BASE_URL2 = "https://api.api-ninjas.com/v1/worldtime" # API call url (datetime)
 
